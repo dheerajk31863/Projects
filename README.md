@@ -14,6 +14,7 @@ The collection of this data has placed Data Science on the forefront of the foot
 
 
 METHODOLOGY
+
 Our main objectives of prediction are "Win / Lose / Draw" and "Goal Difference". In this work, we do two main experiments, for each experiment we follow this procedure
 •	First we perform "normalization" of features, convert category to number
 •	Then we use the best model to do prediction on 10-fold cross validation (9 folds for training and 1 fold for testing) to achieve the mean of test error. This error is more reliable.
