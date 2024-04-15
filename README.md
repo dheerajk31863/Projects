@@ -11,6 +11,8 @@ The collection of this data has placed Data Science on the forefront of the foot
 •	Performance management and prediction
 •	Tournament design and scheduling
 •	Betting odds calculation
+
+
 METHODOLOGY
 Our main objectives of prediction are "Win / Lose / Draw" and "Goal Difference". In this work, we do two main experiments, for each experiment we follow this procedure
 •	First we perform "normalization" of features, convert category to number
@@ -25,6 +27,8 @@ Team A vs. Team B
 •	"lose_2": B wins with 2 goal differences
 •	"lose_3": A wins with 3 or more goal differences
 •	"draw_0": Draw
+
+
 Feature Selection
 1. Importing necessary libraries:
    - pandas: for data manipulation and analysis.
@@ -131,24 +135,39 @@ Model Training
 The logistic regression model is trained using the generated features and the target variable indicating whether the home team has won the match. The model is trained on the training set and evaluated on the test set using  the receiver operating characteristic (ROC) curve and the area under the curve (AUC) score
 
 ![image](https://github.com/dheerajk31863/Projects/assets/167091638/585d4674-6baa-4572-bcd6-4ca7bf707a5b)
+
+
 Result Analysis 
 The results of the simulation are analyzed and visualized. The winners and probabilities at each stage (round of 16, quarterfinal, semifinal, and final) are extracted from the simulation results. The most common winners at each stage are identified and plotted in horizontal bar charts.
+
+
 ![image](https://github.com/dheerajk31863/Projects/assets/167091638/576d634e-013f-4277-ab5e-8dc3d96de4ae)
 ![image](https://github.com/dheerajk31863/Projects/assets/167091638/26eff439-37df-4d04-bbce-8048313acad0)
 ![image](https://github.com/dheerajk31863/Projects/assets/167091638/5b0c4243-768e-4e96-9d4b-3d997a062b4e)
 Results and Analysis
 Top 10 strongest teams
+
 ![image](https://github.com/dheerajk31863/Projects/assets/167091638/b22d6495-6e76-41cb-b516-63624cb3e861)
+
  Is there such a thing as home team advantage?
+ 
 ![image](https://github.com/dheerajk31863/Projects/assets/167091638/647c4ace-8e17-4b54-a0dc-4bf42f1164b8)
+
 Which team has the most wins?
+
 ![image](https://github.com/dheerajk31863/Projects/assets/167091638/4467fa7d-a505-4a1c-b0ef-8a5ecf14b2f2)
+
 What is the winning percentage comparing when the highest-ranked team plays against the lowest-ranked team?
+
 ![image](https://github.com/dheerajk31863/Projects/assets/167091638/2a0ba0af-1881-4b30-8eba-24cbdba2958b)
+
 Top 10 Team which have strongest Defender, midfielder, offense?
+
 ![image](https://github.com/dheerajk31863/Projects/assets/167091638/9b387795-24c7-4e57-9d96-7831e033cbfc)
 Winner prediction
+
 ![image](https://github.com/dheerajk31863/Projects/assets/167091638/da8c5409-04be-46d0-ac57-ffce5532be41)
+
 #Winner Prediction of World Cup 2022 is Brazil
 
 Interpretation:
